@@ -36,8 +36,7 @@ if not keyValid then
 end
 
 if game.PlaceId == 13822889 then
-    -- Lumber Tycoon 2
-    loadstring(fetch("https://raw.githubusercontent.com/ItsLunarHub/LunarHubLT2/main/ItsLunarHub.lua"))()
+    loadstring(fetch("https://raw.githubusercontent.com/ItsLunarHub/LunarHubLT2/main/LunarHubLT2.lua"))()
 
 elseif game.PlaceId == 537413528 then
     -- Build A Boat For Treasure
