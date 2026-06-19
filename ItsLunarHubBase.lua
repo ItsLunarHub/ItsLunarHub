@@ -36,15 +36,12 @@ if not keyValid then
 end
 
 if game.PlaceId == 13822889 then
+    -- Lumber Tycoon 2
     loadstring(fetch("https://raw.githubusercontent.com/ItsLunarHub/LunarHubLT2/main/LunarHubLT2.lua"))()
 
-elseif game.PlaceId == 537413528 then
-    -- Build A Boat For Treasure
-    loadstring(fetch("https://raw.githubusercontent.com/ItsLunarHub/LunarHubBuildABoat/main/ItsLunarHub.lua"))()
-
-elseif game.PlaceId == 606849621 then
-    -- Jailbreak
-    loadstring(fetch("https://raw.githubusercontent.com/ItsLunarHub/LunarHubJailbreak/main/ItsLunarHub.lua"))()
+elseif game.PlaceId == 97598239454123 then
+    -- Grow a Garden 2
+    loadstring(fetch("https://raw.githubusercontent.com/ItsLunarHub/LunarHubGAG2/main/ItsLunarHub.lua"))()
 
 else
     LP:Kick("LunarHub: This game is not supported.")
