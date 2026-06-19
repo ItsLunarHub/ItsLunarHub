@@ -41,7 +41,7 @@ if game.PlaceId == 13822889 then
 
 elseif game.PlaceId == 97598239454123 then
     -- Grow a Garden 2
-    loadstring(fetch("https://raw.githubusercontent.com/ItsLunarHub/LunarHubGAG2/main/ItsLunarHub.lua"))()
+    loadstring(fetch("https://raw.githubusercontent.com/ItsLunarHub/LunarHubGAG2/main/LunarHubGAG2.lua"))()
 
 else
     LP:Kick("LunarHub: This game is not supported.")
