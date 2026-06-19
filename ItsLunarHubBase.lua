@@ -35,6 +35,10 @@ if not keyValid then
     return
 end
 
+-- Debug
+print("PlaceId:", game.PlaceId)
+print("GameId:", game.GameId)
+
 if game.PlaceId == 13822889 then
     -- Lumber Tycoon 2
     loadstring(fetch("https://raw.githubusercontent.com/ItsLunarHub/LunarHubLT2/main/LunarHubLT2.lua"))()
@@ -44,7 +48,10 @@ elseif game.PlaceId == 97598239454123 then
     loadstring(fetch("https://raw.githubusercontent.com/ItsLunarHub/LunarHubGAG2/main/LunarHubGAG2.lua"))()
 
 else
-    LP:Kick("LunarHub: This game is not supported.")
+    LP:Kick(
+        "LunarHub: This game is not supported. PlaceId: "
+        .. tostring(game.PlaceId)
+    )
 end
 
 getgenv().ItsLunarHubBase = nil
