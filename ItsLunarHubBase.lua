@@ -43,9 +43,9 @@ if game.PlaceId == 13822889 then
     -- Lumber Tycoon 2
     loadstring(fetch("https://raw.githubusercontent.com/ItsLunarHub/LunarHubLT2/main/LunarHubLT2.lua"))()
 
-elseif game.PlaceId == 97598239454123 then
-    -- Grow a Garden 2
-    loadstring(fetch("https://raw.githubusercontent.com/ItsLunarHub/LunarHubGAG2/main/LunarHubGAG2.lua"))()
+elseif game.PlaceId == 606849621 then
+    -- Jailbreak
+    loadstring(fetch("https://raw.githubusercontent.com/ItsLunarHub/LunarHubGAG2/main/LunarHubJB.lua"))()
 
 else
     LP:Kick(
