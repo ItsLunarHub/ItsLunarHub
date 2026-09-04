@@ -56,7 +56,7 @@ elseif game.PlaceId == 606849621 then
 elseif game.PlaceId == 79268393072444 then
     -- Jailbreak
     loadstring(fetch(
-        "https://raw.githubusercontent.com/ItsLunarHub/LunarHub$Lemons/main/LunarHub$Lemons.lua"
+        "https://raw.githubusercontent.com/ItsLunarHub/LunarHubSellLemons/main/LunarHubSellLemons.lua"
     ))()
 
 else
