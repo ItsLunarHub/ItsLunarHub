@@ -14,7 +14,9 @@ if not KEY or KEY == "" then
     return
 end
 
-local keyData = fetch("https://raw.githubusercontent.com/ItsLunarHub/ItsLunarHub/main/keys.txt")
+local keyData = fetch(
+    "https://raw.githubusercontent.com/ItsLunarHub/ItsLunarHub/main/keys.txt"
+)
 
 if not keyData then
     LP:Kick("LunarHub: Could not reach key server!")
@@ -41,11 +43,21 @@ print("GameId:", game.GameId)
 
 if game.PlaceId == 13822889 then
     -- Lumber Tycoon 2
-    loadstring(fetch("https://raw.githubusercontent.com/ItsLunarHub/LunarHubLT2/main/LunarHubLT2.lua"))()
+    loadstring(fetch(
+        "https://raw.githubusercontent.com/ItsLunarHub/LunarHubLT2/main/LunarHubLT2.lua"
+    ))()
 
 elseif game.PlaceId == 606849621 then
     -- Jailbreak
-    loadstring(fetch("https://raw.githubusercontent.com/ItsLunarHub/LunarHubGAG2/main/LunarHubJB.lua"))()
+    loadstring(fetch(
+        "https://raw.githubusercontent.com/ItsLunarHub/LunarHubJB/main/LunarHubJB.lua"
+    ))()
+
+elseif game.PlaceId == 79268393072444 then
+    -- Jailbreak
+    loadstring(fetch(
+        "https://raw.githubusercontent.com/ItsLunarHub/LunarHub$Lemons/main/LunarHub$Lemons.lua"
+    ))()
 
 else
     LP:Kick(
